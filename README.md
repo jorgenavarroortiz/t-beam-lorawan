@@ -1,3 +1,9 @@
+Based on the repository https://github.com/ray0711/ttgo-tbeam-ttn-tracker
+
+This repository is updated to use TTGO T-Beam 22 v1.1, which employs the SX1262 LoRa module. This module is not supported by the LMIC library yet, but it is by the BasicMAC (https://github.com/LacunaSpace/basicmac) so ray0711 modified the code to employ this library. Tested and working ok.
+
+-----
+
 ## TTGO T-Beam Tracker for The Things Network
 
 Current version: 1.2.1 + SX1262 patches for tbeam 22 v1.1
